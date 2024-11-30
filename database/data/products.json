@@ -1,0 +1,2110 @@
+[
+    {
+        "sku": "JUICE001",
+        "name": "Suco de Laranja Natural",
+        "picture": "/produtos/sucos/laranja.png",
+        "base_price": 5.0,
+        "promotion_price": 4.0,
+        "description": "Suco fresco de laranja espremido na hora.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 150,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "natural",
+            "fresco",
+            "vitamina C",
+            "laranja",
+            "refrescante"
+        ]
+    },
+    {
+        "sku": "JUICE002",
+        "name": "Suco de Maçã",
+        "picture": "/produtos/sucos/maca.png",
+        "base_price": 4.5,
+        "description": "Suco de maçã natural, refrescante e saudável.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 120,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "maçã",
+            "natural",
+            "saudável",
+            "refrescante",
+            "vitaminas"
+        ]
+    },
+    {
+        "sku": "JUICE003",
+        "name": "Suco Verde Detox",
+        "picture": "/produtos/sucos/detox.png",
+        "base_price": 7.0,
+        "promotion_price": 5.5,
+        "description": "Mistura refrescante de frutas e vegetais detox.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 80,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "detox",
+            "verde",
+            "saudável",
+            "fibras",
+            "energético"
+        ]
+    },
+    {
+        "sku": "JUICE004",
+        "name": "Suco de Abacaxi",
+        "picture": "/produtos/sucos/abacaxi.png",
+        "base_price": 6.0,
+        "description": "Suco refrescante de abacaxi natural.",
+        "rating": 4.4,
+        "unit": "uni",
+        "order_count": 90,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "abacaxi",
+            "refrescante",
+            "tropical",
+            "digestivo",
+            "natural"
+        ]
+    },
+    {
+        "sku": "JUICE005",
+        "name": "Suco de Manga",
+        "picture": "/produtos/sucos/manga.png",
+        "base_price": 6.5,
+        "description": "Suco fresco de manga, ideal para o verão.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 75,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "manga",
+            "fresco",
+            "verão",
+            "doce",
+            "refrescante"
+        ]
+    },
+    {
+        "sku": "JUICE006",
+        "name": "Suco de Melancia",
+        "picture": "/produtos/sucos/melancia.png",
+        "base_price": 5.5,
+        "promotion_price": 1.5,
+        "description": "Suco de melancia refrescante e natural.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 65,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "melancia",
+            "refrescante",
+            "hidratante",
+            "verão",
+            "natural"
+        ]
+    },
+    {
+        "sku": "JUICE007",
+        "name": "Suco de Uva",
+        "picture": "/produtos/sucos/uva.png",
+        "base_price": 6.0,
+        "description": "Suco natural de uva, saboroso e refrescante.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 50,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "uva",
+            "natural",
+            "antioxidante",
+            "doce",
+            "saudável"
+        ]
+    },
+    {
+        "sku": "JUICE008",
+        "name": "Suco de Limão",
+        "picture": "/produtos/sucos/limao.png",
+        "base_price": 5.5,
+        "description": "Suco azedo de limão, perfeito para os amantes de sabores cítricos.",
+        "rating": 4.3,
+        "unit": "uni",
+        "order_count": 40,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "limão",
+            "cítrico",
+            "azedo",
+            "refrescante",
+            "natural"
+        ]
+    },
+    {
+        "sku": "JUICE009",
+        "name": "Suco de Cenoura",
+        "picture": "/produtos/sucos/cenoura.png",
+        "base_price": 5.0,
+        "description": "Suco nutritivo de cenoura, ótimo para a saúde.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 30,
+        "quantity_gap": 1,
+        "categories": [
+            "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4"
+        ],
+        "customizations": [
+            {
+                "product_id": "f1c8b2b7-5283-45eb-9341-94c679bb229b",
+                "name": "Escolha o tipo de adoçante",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Açúcar",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Mel",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Stevia",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com gelo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com gelo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem gelo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            },
+            {
+                "name": "Com canudo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Com canudo",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Sem canudo",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "cenoura",
+            "nutritivo",
+            "saudável",
+            "vitaminas",
+            "natural"
+        ]
+    },
+    {
+        "sku": "BREAD001",
+        "name": "Pão Francês",
+        "picture": "/produtos/paes/frances.png",
+        "base_price": 3.0,
+        "description": "Pão francês fresquinho, ideal para o café da manhã.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 100,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "fresquinho",
+            "café da manhã",
+            "tradicional",
+            "pão crocante"
+        ]
+    },
+    {
+        "sku": "BREAD002",
+        "name": "Pão de Queijo",
+        "picture": "/produtos/paes/queijo.png",
+        "base_price": 4.0,
+        "description": "Delicioso pão de queijo quentinho.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 80,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "quentinho",
+            "tradicional",
+            "café da manhã",
+            "mineiro"
+        ]
+    },
+    {
+        "sku": "BREAD003",
+        "name": "Pão Integral",
+        "picture": "/produtos/paes/integral.png",
+        "base_price": 3.5,
+        "promotion_price": 3,
+        "description": "Pão integral saudável e saboroso.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 60,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [],
+        "tags": [
+            "saudável",
+            "integral",
+            "leve",
+            "baixo teor calórico"
+        ]
+    },
+    {
+        "sku": "BREAD004",
+        "name": "Pão de Milho",
+        "picture": "/produtos/paes/milho.png",
+        "base_price": 4.5,
+        "promotion_price": 4,
+        "description": "Pão de milho macio e saboroso.",
+        "rating": 4.3,
+        "unit": "uni",
+        "order_count": 50,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "name": "Ingredientes adicionais",
+                "type": "multiple",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Queijo",
+                        "price_modifier": 1.0
+                    },
+                    {
+                        "name": "Ervas finas",
+                        "price_modifier": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "macio",
+            "tradicional",
+            "milho",
+            "saboroso"
+        ]
+    },
+    {
+        "sku": "BREAD005",
+        "name": "Pão de Centeio",
+        "picture": "/produtos/paes/centeio.png",
+        "base_price": 4.2,
+        "description": "Pão de centeio nutritivo e saboroso.",
+        "rating": 4.4,
+        "unit": "uni",
+        "order_count": 40,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "nutritivo",
+            "centeio",
+            "rico em fibras",
+            "saudável"
+        ]
+    },
+    {
+        "sku": "BREAD006",
+        "name": "Pão de Forma",
+        "picture": "/produtos/paes/pao-de-forma.png",
+        "base_price": 3.8,
+        "description": "Pão de forma leve, perfeito para sanduíches.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 90,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "sanduíche",
+            "café da manhã",
+            "fácil de cortar",
+            "macio"
+        ]
+    },
+    {
+        "sku": "BREAD007",
+        "name": "Focaccia",
+        "picture": "/produtos/paes/focaccia.png",
+        "base_price": 5.0,
+        "description": "Focaccia artesanal com alecrim e sal grosso.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 70,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha cobertura",
+                "type": "multiple",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Queijo",
+                        "price_modifier": 1.0
+                    },
+                    {
+                        "name": "Tomate seco",
+                        "price_modifier": 1.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "artesanal",
+            "alecrim",
+            "salgado",
+            "italiano"
+        ]
+    },
+    {
+        "sku": "BREAD008",
+        "name": "Pão de Alho",
+        "picture": "/produtos/paes/alho.png",
+        "base_price": 4.0,
+        "promotion_price": 3.75,
+        "description": "Pão de alho quentinho e crocante.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 30,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [],
+        "tags": [
+            "sabor intenso",
+            "crocante",
+            "assado",
+            "churrasco"
+        ]
+    },
+    {
+        "sku": "BREAD009",
+        "name": "Pão de Batata",
+        "picture": "/produtos/paes/batata.png",
+        "base_price": 4.0,
+        "description": "Pão de batata macio e saboroso.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 20,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "batata",
+            "macio",
+            "infantil",
+            "lanche"
+        ]
+    },
+    {
+        "sku": "BREAD010",
+        "name": "Pão de Mel",
+        "picture": "/produtos/paes/mel.png",
+        "base_price": 3.5,
+        "description": "Pão de mel, ideal para o lanche da tarde.",
+        "rating": 4.2,
+        "unit": "uni",
+        "order_count": 25,
+        "quantity_gap": 1,
+        "categories": [
+            "35f4e6a6-1234-456a-90a5-5c927abe01e4"
+        ],
+        "customizations": [],
+        "tags": [
+            "doce",
+            "lanche da tarde",
+            "tradicional",
+            "sabor mel"
+        ]
+    },
+    {
+        "sku": "CAKE001",
+        "name": "Bolo de Chocolate",
+        "picture": "/produtos/bolos/chocolate.png",
+        "base_price": 25.0,
+        "promotion_price": 23.99,
+        "description": "Bolo de chocolate recheado e coberto com ganache.",
+        "rating": 4.9,
+        "unit": "kg",
+        "order_count": 50,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha o sabor do recheio",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Chocolate",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Morango",
+                        "price_modifier": 2.0
+                    },
+                    {
+                        "name": "Baunilha",
+                        "price_modifier": 1.5
+                    }
+                ]
+            },
+            {
+                "name": "Cobertura adicional",
+                "type": "multiple",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Nozes",
+                        "price_modifier": 1.0
+                    },
+                    {
+                        "name": "Granulado",
+                        "price_modifier": 0.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "chocolate",
+            "recheado",
+            "sobremesa",
+            "ganache"
+        ]
+    },
+    {
+        "sku": "CAKE002",
+        "name": "Bolo de Cenoura",
+        "picture": "/produtos/bolos/cenoura.png",
+        "base_price": 22.0,
+        "description": "Bolo de cenoura com cobertura de chocolate.",
+        "rating": 4.8,
+        "unit": "kg",
+        "order_count": 40,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [],
+        "tags": [
+            "cenoura",
+            "caseiro",
+            "infantil",
+            "chocolate"
+        ]
+    },
+    {
+        "sku": "CAKE003",
+        "name": "Bolo de Limão",
+        "picture": "/produtos/bolos/limao.png",
+        "base_price": 20.0,
+        "description": "Bolo de limão leve e refrescante.",
+        "rating": 4.7,
+        "unit": "kg",
+        "order_count": 35,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha a cobertura",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Cobertura de limão",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Cobertura de chocolate",
+                        "price_modifier": 1.5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "limão",
+            "refrescante",
+            "leve",
+            "frutas"
+        ]
+    },
+    {
+        "sku": "CAKE004",
+        "name": "Bolo de Fubá",
+        "picture": "/produtos/bolos/fuba.png",
+        "base_price": 18.0,
+        "promotion_price": 17.95,
+        "description": "Bolo de fubá com goiabada, uma delícia da culinária brasileira.",
+        "rating": 4.6,
+        "unit": "kg",
+        "order_count": 30,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [],
+        "tags": [
+            "fubá",
+            "goiabada",
+            "brasileiro",
+            "tradicional"
+        ]
+    },
+    {
+        "sku": "CAKE005",
+        "name": "Bolo Red Velvet",
+        "picture": "/produtos/bolos/redvelvet.png",
+        "base_price": 30.0,
+        "description": "Bolo red velvet com cream cheese, um clássico.",
+        "rating": 4.9,
+        "unit": "kg",
+        "order_count": 20,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [
+            {
+                "name": "Adicionar camadas",
+                "type": "single",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "1 camada",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "2 camadas",
+                        "price_modifier": 5.0
+                    },
+                    {
+                        "name": "3 camadas",
+                        "price_modifier": 10.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "red velvet",
+            "cream cheese",
+            "clássico",
+            "festivo"
+        ]
+    },
+    {
+        "sku": "CAKE006",
+        "name": "Bolo de Morango",
+        "picture": "/produtos/bolos/morango.png",
+        "base_price": 28.0,
+        "description": "Bolo de morango com chantilly, fresquinho e saboroso.",
+        "rating": 4.8,
+        "unit": "kg",
+        "order_count": 25,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [],
+        "tags": [
+            "morango",
+            "chantilly",
+            "frutas",
+            "fresquinho"
+        ]
+    },
+    {
+        "sku": "CAKE007",
+        "name": "Bolo de Baunilha",
+        "picture": "/produtos/bolos/baunilha.png",
+        "base_price": 20.0,
+        "description": "Bolo de baunilha clássico, ideal para festas.",
+        "rating": 4.5,
+        "unit": "kg",
+        "order_count": 15,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [
+            {
+                "name": "Decoração especial",
+                "type": "multiple",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Frutas frescas",
+                        "price_modifier": 3.0
+                    },
+                    {
+                        "name": "Raspas de chocolate",
+                        "price_modifier": 2.0
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "baunilha",
+            "festa",
+            "clássico",
+            "versátil"
+        ]
+    },
+    {
+        "sku": "CAKE008",
+        "name": "Bolo de Coco",
+        "picture": "/produtos/bolos/coco.png",
+        "base_price": 24.0,
+        "description": "Bolo de coco com cobertura de leite condensado.",
+        "rating": 4.7,
+        "unit": "kg",
+        "order_count": 10,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [],
+        "tags": [
+            "coco",
+            "leite condensado",
+            "cremoso",
+            "doce"
+        ]
+    },
+    {
+        "sku": "CAKE009",
+        "name": "Bolo de Pinha",
+        "picture": "/produtos/bolos/pinha.png",
+        "base_price": 26.0,
+        "promotion_price": 22.0,
+        "description": "Bolo de pinha, uma delícia tropical.",
+        "rating": 4.4,
+        "unit": "kg",
+        "order_count": 8,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [],
+        "tags": [
+            "pinha",
+            "tropical",
+            "diferente",
+            "promocional"
+        ]
+    },
+    {
+        "sku": "CAKE010",
+        "name": "Bolo de Maracujá",
+        "picture": "/produtos/bolos/maracuja.png",
+        "base_price": 22.0,
+        "description": "Bolo de maracujá com cobertura de maracujá.",
+        "rating": 4.6,
+        "unit": "kg",
+        "order_count": 5,
+        "quantity_gap": 0.5,
+        "categories": [
+            "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544"
+        ],
+        "customizations": [],
+        "tags": [
+            "maracujá",
+            "frutas",
+            "fresco",
+            "tropical"
+        ]
+    },
+    {
+        "sku": "CROISSANT001",
+        "name": "Croissant Tradicional",
+        "picture": "/produtos/croissants/tradicional.png",
+        "base_price": 4.0,
+        "promotion_price": 3.0,
+        "description": "Croissant clássico, crocante por fora e macio por dentro.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 100,
+        "quantity_gap": 1,
+        "tags": [
+            "clássico",
+            "crocante",
+            "promocional"
+        ],
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT002",
+        "name": "Croissant de Chocolate",
+        "picture": "/produtos/croissants/chocolate.png",
+        "base_price": 5.0,
+        "description": "Croissant recheado com chocolate derretido.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 80,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "chocolate",
+            "recheado",
+            "doce"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT003",
+        "name": "Croissant de Amêndoas",
+        "picture": "/produtos/croissants/amendoas.png",
+        "base_price": 5.5,
+        "description": "Croissant recheado com pasta de amêndoas e coberto com amêndoas laminadas.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 60,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "amêndoas",
+            "recheado",
+            "cobertura"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT004",
+        "name": "Croissant de Presunto e Queijo",
+        "picture": "/produtos/croissants/presunto-e-queijo.png",
+        "base_price": 6.0,
+        "description": "Croissant recheado com presunto e queijo, perfeito para o café da manhã.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 50,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "presunto",
+            "queijo",
+            "café da manhã"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha o tipo de queijo",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Mussarela",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Cheddar",
+                        "price_modifier": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "CROISSANT005",
+        "name": "Croissant de Frutas",
+        "picture": "/produtos/croissants/frutas.png",
+        "base_price": 5.0,
+        "description": "Croissant recheado com frutas da estação e creme.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 40,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "frutas",
+            "creme",
+            "fresco"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT006",
+        "name": "Mini Croissant",
+        "picture": "/produtos/croissants/mini.png",
+        "base_price": 2.5,
+        "promotion_price": 2.15,
+        "description": "Mini croissant ideal para lanches rápidos.",
+        "rating": 4.4,
+        "unit": "uni",
+        "order_count": 70,
+        "tags": [
+            "mini",
+            "lanche",
+            "promocional"
+        ],
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT007",
+        "name": "Croissant de Baunilha",
+        "picture": "/produtos/croissants/baunilha.png",
+        "base_price": 5.0,
+        "description": "Croissant recheado com creme de baunilha, uma delícia!",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 30,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "baunilha",
+            "creme",
+            "doce"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "CROISSANT008",
+        "name": "Croissant Gourmet",
+        "picture": "/produtos/croissants/gourmet.png",
+        "base_price": 7.0,
+        "description": "Croissant recheado com ingredientes especiais e ervas finas.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 20,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "gourmet",
+            "ervas finas",
+            "especial"
+        ],
+        "customizations": [
+            {
+                "name": "Adicionar recheio extra",
+                "type": "multiple",
+                "is_required": false,
+                "options": [
+                    {
+                        "name": "Mel",
+                        "price_modifier": 1.0
+                    },
+                    {
+                        "name": "Gelete de frutas",
+                        "price_modifier": 1.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "CROISSANT009",
+        "name": "Croissant de Caramelo",
+        "picture": "/produtos/croissants/caramelo.png",
+        "base_price": 5.5,
+        "description": "Croissant coberto com caramelo, para os amantes de doce.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 15,
+        "quantity_gap": 1,
+        "categories": [
+            "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31"
+        ],
+        "tags": [
+            "caramelo",
+            "doce",
+            "cobertura"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET001",
+        "name": "Cesta de Café da Manhã",
+        "picture": "/produtos/cestas/cafe-da-manha.png",
+        "base_price": 50.0,
+        "promotion_price": 47.50,
+        "description": "Cesta recheada com pães, frutas, sucos e biscoitos.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 30,
+        "quantity_gap": 1,
+        "tags": [
+            "café da manhã",
+            "pães",
+            "frutas",
+            "promocional"
+        ],
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha o suco",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Suco de Laranja",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Suco de Maçã",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Suco de Uva",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "BASKET002",
+        "name": "Cesta de Frutas",
+        "picture": "/produtos/cestas/frutas.png",
+        "base_price": 40.0,
+        "description": "Cesta composta por diversas frutas frescas da estação.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 25,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "frutas",
+            "fresco",
+            "saudável"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET003",
+        "name": "Cesta Gourmet",
+        "picture": "/produtos/cestas/gourmet.jpeg",
+        "base_price": 100.0,
+        "description": "Cesta gourmet com queijos, vinhos e pães especiais.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 15,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "gourmet",
+            "queijos",
+            "vinhos",
+            "especial"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET004",
+        "name": "Cesta de Biscoitos",
+        "picture": "/produtos/cestas/biscoitos.png",
+        "base_price": 30.0,
+        "description": "Cesta com uma variedade de biscoitos artesanais.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 20,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "biscoitos",
+            "artesanal",
+            "variedade"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha os tipos de biscoitos",
+                "type": "multiple",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Biscoito de Chocolate",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Biscoito de Nozes",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Biscoito de Gengibre",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "BASKET005",
+        "name": "Cesta de Pães Artesanais",
+        "picture": "/produtos/cestas/paes-artesanais.png",
+        "base_price": 60.0,
+        "description": "Cesta com seleção de pães artesanais variados.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 10,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "pães artesanais",
+            "fresco",
+            "assados"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET006",
+        "name": "Cesta de Café com Leite",
+        "picture": "/produtos/cestas/cafe-com-leite.png",
+        "base_price": 45.0,
+        "description": "Cesta ideal para o café da manhã, com café, leite e pães.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 12,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "café",
+            "leite",
+            "café da manhã"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha o tipo de café",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Espresso",
+                        "price_modifier": 0.0
+                    },
+                    {
+                        "name": "Café coado",
+                        "price_modifier": 0.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "BASKET007",
+        "name": "Cesta de Lanches",
+        "picture": "/produtos/cestas/lanches.png",
+        "base_price": 55.0,
+        "promotion_price": 50.0,
+        "description": "Cesta com snacks, pães e acompanhamentos.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 8,
+        "quantity_gap": 1,
+        "tags": [
+            "snacks",
+            "lanches",
+            "acompanhamentos",
+            "promocional"
+        ],
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET008",
+        "name": "Cesta de Natal",
+        "picture": "/produtos/cestas/natal.png",
+        "base_price": 150.0,
+        "description": "Cesta festiva com produtos especiais para as festas de fim de ano.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 5,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "natal",
+            "festivo",
+            "especial"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET009",
+        "name": "Cesta de Doces",
+        "picture": "/produtos/cestas/doces.png",
+        "base_price": 40.0,
+        "description": "Cesta recheada com diversos doces artesanais.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 6,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "doces",
+            "artesanal",
+            "delicioso"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "BASKET010",
+        "name": "Cesta Vegana",
+        "picture": "/produtos/cestas/vegana.png",
+        "base_price": 70.0,
+        "description": "Cesta com opções veganas, incluindo pães e snacks.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 7,
+        "quantity_gap": 1,
+        "categories": [
+            "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d"
+        ],
+        "tags": [
+            "vegano",
+            "pães",
+            "snacks",
+            "saudável"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT001",
+        "name": "Donut Glaceado",
+        "picture": "/produtos/donuts/glaceado.png",
+        "base_price": 3.5,
+        "promotion_price": 3.0,
+        "description": "Donut clássico coberto com glacê doce.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 120,
+        "quantity_gap": 1,
+        "tags": [
+            "glacê",
+            "clássico",
+            "doce",
+            "tradicional"
+        ],
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT002",
+        "name": "Donut de Chocolate",
+        "picture": "/produtos/donuts/chocolate.png",
+        "base_price": 4.0,
+        "description": "Donut macio coberto com chocolate cremoso.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 100,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "chocolate",
+            "cremoso",
+            "favorito"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT003",
+        "name": "Donut de Morango",
+        "picture": "/produtos/donuts/morango.png",
+        "base_price": 4.5,
+        "description": "Donut recheado e coberto com geleia de morango.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 80,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "morango",
+            "geleia",
+            "fruta",
+            "recheado"
+        ],
+        "customizations": [
+            {
+                "name": "Escolha a cobertura",
+                "type": "single",
+                "is_required": true,
+                "options": [
+                    {
+                        "name": "Chocolate",
+                        "price_modifier": 0.5
+                    },
+                    {
+                        "name": "Baunilha",
+                        "price_modifier": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sku": "DONUT004",
+        "name": "Donut de Caramelo",
+        "picture": "/produtos/donuts/caramelo.png",
+        "base_price": 4.0,
+        "promotion_price": 3.5,
+        "description": "Donut recheado com caramelo artesanal.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 70,
+        "quantity_gap": 1,
+        "tags": [
+            "caramelo",
+            "artesanal",
+            "doce",
+            "recheado"
+        ],
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT005",
+        "name": "Donut Vegano",
+        "picture": "/produtos/donuts/vegano.png",
+        "base_price": 5.0,
+        "description": "Donut sem ingredientes de origem animal, sabor baunilha.",
+        "rating": 4.5,
+        "unit": "uni",
+        "order_count": 50,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "vegano",
+            "baunilha",
+            "sem origem animal"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT006",
+        "name": "Donut de Canela",
+        "picture": "/produtos/donuts/canela.png",
+        "base_price": 3.5,
+        "description": "Donut polvilhado com açúcar e canela.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 85,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "canela",
+            "açúcar",
+            "clássico"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT007",
+        "name": "Donut de Limão",
+        "picture": "/produtos/donuts/limao.png",
+        "base_price": 4.5,
+        "description": "Donut com cobertura azedinha de limão.",
+        "rating": 4.4,
+        "unit": "uni",
+        "order_count": 60,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "limão",
+            "azedinho",
+            "refrescante"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT008",
+        "name": "Donut Oreo",
+        "picture": "/produtos/donuts/oreo.png",
+        "base_price": 5.5,
+        "promotion_price": 4.5,
+        "description": "Donut coberto com pedaços de Oreo e creme.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 40,
+        "quantity_gap": 1,
+        "tags": [
+            "oreo",
+            "creme",
+            "biscoito",
+            "gourmet"
+        ],
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT009",
+        "name": "Donut de Frutas Vermelhas",
+        "picture": "/produtos/donuts/frutas-vermelhas.png",
+        "base_price": 5.0,
+        "description": "Donut recheado com frutas vermelhas.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 45,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "frutas vermelhas",
+            "recheado",
+            "fruta",
+            "doce"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT010",
+        "name": "Donut Matcha",
+        "picture": "/produtos/donuts/matcha.png",
+        "base_price": 6.0,
+        "description": "Donut com cobertura de chá verde matcha.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 30,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "matcha",
+            "chá verde",
+            "especial",
+            "gourmet"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT011",
+        "name": "Donut Red Velvet",
+        "picture": "/produtos/donuts/red-velvet.png",
+        "base_price": 5.5,
+        "description": "Donut de massa vermelha com cobertura cremosa.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 35,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "red velvet",
+            "cremoso",
+            "massa especial"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT012",
+        "name": "Donut de Doce de Leite",
+        "picture": "/produtos/donuts/doce-de-leite.png",
+        "base_price": 4.5,
+        "promotion_price": 4.0,
+        "description": "Donut recheado com doce de leite caseiro.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 55,
+        "quantity_gap": 1,
+        "tags": [
+            "doce de leite",
+            "caseiro",
+            "recheado"
+        ],
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d",
+            "f0e4472e-7e75-4a0a-b8f7-e04c9279c155"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT013",
+        "name": "Donut de Pistache",
+        "picture": "/produtos/donuts/pistache.png",
+        "base_price": 6.5,
+        "description": "Donut coberto com creme e pedaços de pistache.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 25,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "pistache",
+            "cremoso",
+            "premium"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "DONUT014",
+        "name": "Donut Gourmet",
+        "picture": "/produtos/donuts/gourmet.png",
+        "base_price": 7.0,
+        "description": "Donut premium com cobertura especial de Nutella.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 20,
+        "quantity_gap": 1,
+        "categories": [
+            "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d"
+        ],
+        "tags": [
+            "nutella",
+            "premium",
+            "especial",
+            "gourmet"
+        ],
+        "customizations": []
+    },
+    {
+        "sku": "COOKIE001",
+        "name": "Cookie de Chocolate com Nozes",
+        "picture": "/produtos/cookies/chocolate-com-nozes.png",
+        "base_price": 4.0,
+        "description": "Cookie artesanal com pedaços de chocolate meio amargo e nozes crocantes.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 85,
+        "quantity_gap": 1,
+        "categories": [
+            "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7"
+        ],
+        "customizations": [],
+        "tags": [
+            "chocolate",
+            "nozes",
+            "artesanal",
+            "crocante"
+        ]
+    },
+    {
+        "sku": "COOKIE002",
+        "name": "Cookie de Aveia com Mel",
+        "picture": "/produtos/cookies/aveia-com-mel.png",
+        "base_price": 3.5,
+        "description": "Um cookie macio e saudável, feito com aveia integral e um toque de mel.",
+        "rating": 4.7,
+        "unit": "uni",
+        "order_count": 70,
+        "quantity_gap": 1,
+        "categories": [
+            "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7"
+        ],
+        "customizations": [],
+        "tags": [
+            "aveia",
+            "mel",
+            "saudável",
+            "macio"
+        ]
+    },
+    {
+        "sku": "COOKIE003",
+        "name": "Cookie de Manteiga de Amendoim",
+        "picture": "/produtos/cookies/manteiga-de-amendoim.png",
+        "base_price": 4.5,
+        "description": "Delicioso cookie feito com manteiga de amendoim natural, ideal para os amantes desse sabor.",
+        "rating": 4.8,
+        "unit": "uni",
+        "order_count": 65,
+        "quantity_gap": 1,
+        "categories": [
+            "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7"
+        ],
+        "customizations": [],
+        "tags": [
+            "manteiga de amendoim",
+            "sabor intenso",
+            "cremoso",
+            "artesanal"
+        ]
+    },
+    {
+        "sku": "COOKIE004",
+        "name": "Cookie Red Velvet",
+        "picture": "/produtos/cookies/red-velvet.png",
+        "base_price": 5.0,
+        "description": "Cookie macio de red velvet com pedaços de chocolate branco.",
+        "rating": 4.9,
+        "unit": "uni",
+        "order_count": 90,
+        "quantity_gap": 1,
+        "categories": [
+            "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7"
+        ],
+        "customizations": [],
+        "tags": [
+            "red velvet",
+            "chocolate branco",
+            "macio",
+            "gourmet"
+        ]
+    },
+    {
+        "sku": "COOKIE005",
+        "name": "Cookie de Frutas Secas",
+        "picture": "/produtos/cookies/frutas-secas.png",
+        "base_price": 4.5,
+        "description": "Cookie recheado com uma mistura de frutas secas como uvas passas, damascos e cranberries.",
+        "rating": 4.6,
+        "unit": "uni",
+        "order_count": 55,
+        "quantity_gap": 1,
+        "categories": [
+            "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7"
+        ],
+        "customizations": [],
+        "tags": [
+            "frutas secas",
+            "damasco",
+            "cranberry",
+            "saudável"
+        ]
+    }
+]

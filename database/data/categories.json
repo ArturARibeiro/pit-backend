@@ -1,0 +1,50 @@
+[
+    {
+        "id": "f0e4472e-7e75-4a0a-b8f7-e04c9279c155",
+        "name": "Promoções",
+        "slug": "promotions",
+        "image": "/categorias/promocoes.png"
+    },
+    {
+        "id": "35f4e6a6-1234-456a-90a5-5c927abe01e4",
+        "name": "Pães",
+        "slug": "breads",
+        "image": "/categorias/paes.png"
+    },
+    {
+        "id": "c5e9e789-5a77-4b8c-8b1a-c24e7c08b544",
+        "name": "Bolos",
+        "slug": "cakes",
+        "image": "/categorias/bolos.png"
+    },
+    {
+        "id": "a4f7d9b3-fb45-4bcf-b5e1-8e5d6f5379c4",
+        "name": "Sucos",
+        "slug": "juices",
+        "image": "/categorias/sucos.png"
+    },
+    {
+        "id": "d2f7a8c6-8a45-489f-84e1-d4c87e5a9d31",
+        "name": "Croissants",
+        "slug": "croissants",
+        "image": "/categorias/croissants.png"
+    },
+    {
+        "id": "e1c5b7a4-d8c4-4f9e-8b4a-3b98e78b9c4d",
+        "name": "Cestas",
+        "slug": "baskets",
+        "image": "/categorias/cestas.png"
+    },
+    {
+        "id": "4b968c5b-3e6f-49c7-8a3a-6d4f1a5c8b7d",
+        "name": "Donuts",
+        "slug": "donuts",
+        "image": "/categorias/donuts.png"
+    },
+    {
+        "id": "6f6ea4e2-764c-4b8d-9b78-e4f3e2c7b5a7",
+        "name": "Cookies",
+        "slug": "cookies",
+        "image": "/categorias/cookies.png"
+    }
+]
