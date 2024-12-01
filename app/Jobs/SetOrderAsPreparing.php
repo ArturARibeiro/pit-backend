@@ -29,7 +29,7 @@ class SetOrderAsPreparing implements ShouldQueue
             $order->status = OrderStatusEnum::Preparing->value;
             $order->save();
 
-            event(new OrderUpdated($order->id, $order));
+            event(new OrderUpdated($order->user_id, $order));
             event(new NotificationSent(
                 userId: $order->user_id,
                 notification: Notification::create('Em preparo!', 'Estamos preparando o seu pedido.')
