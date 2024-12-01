@@ -25,27 +25,32 @@ class OrderController extends Controller
     public function store(OrderStoreRequest $request): OrderResource
     {
         $order = DB::transaction(function () use ($request) {
-            /** @var Product $product */
-            $product = Product::query()->find($request->get('product_id'));
-
-            if (!$product) {
-                throw new BadRequestHttpException('Product not found');
-            }
-
             $order = new Order();
             $order->date = Carbon::now();
             $order->status = OrderStatusEnum::Pending;
+            $order->user_id = $request->user()->id;
+            $order->address_id = $request->input('address_id');
+            $order->card_id = $request->input('card_id');
             $order->save();
 
             $items = $request->get('items', []);
             foreach ($items as $item) {
+                /** @var Product $product */
+                $product = Product::query()->find($item['product_id']);
+
+                if (!$product) {
+                    throw new BadRequestHttpException('Product not found');
+                }
+
                 $orderItem = new OrderItem();
                 $orderItem->product_id = $item['product_id'];
                 $orderItem->quantity = $item['quantity'];
-                $orderItem->price = $item['amount'];
+                $orderItem->amount = $item['amount'];
 
                 $order->items()->save(new OrderItem($item));
             }
+
+            return $order;
         });
 
         return new OrderResource($order);
@@ -58,10 +63,25 @@ class OrderController extends Controller
 
     public function rate(OrderRateRequest $request, Order $order): OrderResource
     {
-        $order->update([
-            'rate' => $request->get('rate'),
-            'review' => $request->get('review'),
-        ]);
+        $order->rate = $request->input('rate');
+        $order->review = $request->input('review');
+        $order->save();
+
+        return new OrderResource($order);
+    }
+
+    public function finish(Order $order): OrderResource
+    {
+        $order->status = OrderStatusEnum::Concluded->value;
+        $order->save();
+
+        return new OrderResource($order);
+    }
+
+    public function cancel(Order $order): OrderResource
+    {
+        $order->status = OrderStatusEnum::Cancelled->value;
+        $order->save();
 
         return new OrderResource($order);
     }

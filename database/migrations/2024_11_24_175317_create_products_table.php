@@ -26,7 +26,7 @@ return new class extends Migration {
             $table->timestamps();
         });
 
-        Schema::create('product_category_product', function (Blueprint $table) {
+        Schema::create('product_product_category', function (Blueprint $table) {
             $table->foreignUuid('product_id')->constrained();
             $table->foreignUuid('product_category_id')->constrained();
             $table->primary(['product_id', 'product_category_id']);

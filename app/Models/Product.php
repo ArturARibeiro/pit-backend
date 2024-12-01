@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
@@ -20,6 +21,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @property int $order_count
  * @property float $quantity_gap
  * @property string $tags
+ * @property Collection<ProductCategory> $categories
  * @property Collection<ProductCustomization> $customizations
  */
 class Product extends Model
@@ -46,6 +48,11 @@ class Product extends Model
         "quantity_gap" => "double",
         "tags" => "array",
     ];
+
+    public function categories(): BelongsToMany
+    {
+        return $this->belongsToMany(ProductCategory::class);
+    }
 
     public function customizations(): HasMany
     {

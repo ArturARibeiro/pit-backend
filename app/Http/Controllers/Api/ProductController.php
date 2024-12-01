@@ -6,12 +6,21 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\ProductCollection;
 use App\Http\Resources\ProductResource;
 use App\Models\Product;
+use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(): ProductCollection
+    public function index(Request $request): ProductCollection
     {
-        return new ProductCollection(Product::all());
+        $query = Product::query();
+
+        if ($slug = $request->get('category_slug')) {
+            $query->whereHas('categories', function ($query) use ($slug) {
+                $query->where('slug', $slug);
+            });
+        }
+
+        return new ProductCollection($query->get());
     }
 
     public function show(Product $product): ProductResource

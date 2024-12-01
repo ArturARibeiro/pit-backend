@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Broadcast\ServerSentEventsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,4 +18,9 @@ Route::group(['as' => 'auth.'], function () {
         Route::get('/sid', [AuthController::class, 'sid'])->name('sid');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
     });
+});
+
+
+Route::group(['prefix' => 'stream', 'as' => 'stream.'], function () {
+    Route::get('/sse', [ServerSentEventsController::class, 'sse'])->name('sse');
 });

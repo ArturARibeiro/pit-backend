@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->foreignUuid('order_id')->constrained();
             $table->foreignUuid('product_id')->constrained();
             $table->integer('quantity')->unsigned();
-            $table->decimal('price', 10)->unsigned();
+            $table->decimal('amount', 10)->unsigned();
             $table->timestamps();
         });
     }

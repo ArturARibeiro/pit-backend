@@ -10,15 +10,14 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('orders', function (Blueprint $table) {
+        Schema::create('cards', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->foreignId('user_id')->constrained();
-            $table->foreignUuid('address_id')->constrained();
-            $table->foreignUuid('card_id')->constrained();
-            $table->enum('status', ['pending', 'preparing', 'transport', 'concluded', 'canceled']);
-            $table->unsignedTinyInteger('rate')->nullable();
-            $table->text('review')->nullable();
-            $table->timestamp('date');
+            $table->string('name');
+            $table->string('number', 16);
+            $table->string('cvv');
+            $table->date('validity');
+            $table->enum('type', ['debit', 'credit']);
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('orders');
+        Schema::dropIfExists('cards');
     }
 };

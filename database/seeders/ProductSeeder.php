@@ -23,6 +23,7 @@ class ProductSeeder extends Seeder
         $products = File::json("$path/products.json");
         foreach ($products as $product) {
             $customizations = $product['customizations'] ?? [];
+            $categories = $product['categories'] ?? [];
 
             $product = Product::query()->create([
                 "sku" => $product["sku"],
@@ -37,6 +38,8 @@ class ProductSeeder extends Seeder
                 "quantity_gap" => $product["quantity_gap"] ?? 1,
                 "tags" => json_encode($product["tags"]),
             ]);
+
+            $product->categories()->sync($categories);
 
             foreach ($customizations as $customization) {
                 $options = $customization['options'] ?? [];

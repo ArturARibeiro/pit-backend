@@ -135,6 +135,7 @@
                 placeholder="email@dominio.com"
                 class="form__input"
                 inputmode="email"
+                value="{{ old('email') }}"
                 required
             />
             @error('email') {{ $message }} @enderror

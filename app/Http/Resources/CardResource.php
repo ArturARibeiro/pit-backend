@@ -2,14 +2,14 @@
 
 namespace App\Http\Resources;
 
-use App\Models\User;
+use App\Models\Card;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
- * @mixin User
+ * @mixin Card
  */
-class UserResource extends JsonResource
+class CardResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -21,14 +21,8 @@ class UserResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'email' => $this->email,
-            'phone' => $this->phone,
-            'addresses' => new AddressCollection(
-                resource: $this->whenLoaded('addresses'),
-            ),
-            'cards' => new CardCollection(
-                resource: $this->whenLoaded('cards'),
-            )
+            'number' => $this->number,
+            'type' => $this->type,
         ];
     }
 }
