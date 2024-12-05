@@ -12,7 +12,7 @@ class ServerSentEventsController extends Controller
     public function sse(Request $request): StreamedResponse|null
     {
         try {
-            $userId = $request->user()->id;
+            $userId = $request->user()->id ?? 'guest';
             $finish = now()->addMinutes(15); // Tempo máximo de conexão
 
             $response = new StreamedResponse(function () use ($userId, $finish) {
